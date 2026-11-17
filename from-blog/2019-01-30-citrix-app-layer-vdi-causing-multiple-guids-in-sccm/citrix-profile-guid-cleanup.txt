@@ -1,0 +1,20 @@
+Source: Citrix App Layer VDI causing Multiple GUIDs in SCCM
+Blog: https://hiway65nblog.blogspot.com/2019/01/citrix-app-layer-vdi-causing-multiple.html
+Published: January 30, 2019
+Labels: Client Issues, Duplicate GUID, SCCM Current Branch, System Center Configuration Manager
+Procedure from the post. Two of the steps are commands; the rest are console and Disk Management actions.
+
+For each user VM
+
+ In the SCCM Console:
+ - delete the Computer object for this VM
+  On the VM:
+ - net stop CCMexec
+- Del %windir%\smscfg.ini
+- delete SMS certificates
+- open disk manager,
+- Locate the hidden partition "c:\program files\Citrix\pvsvm\Service\PersistedData" and take control of that partition,
+- Mount it to a drive letter
+- On that drive, locate the folder named CCMData with a file called ccmdata.bak.
+- Delete this file
+- Reboot the VM

@@ -1,0 +1,35 @@
+Source: Specialized Application Reporting - Part 1
+Blog: https://hiway65nblog.blogspot.com/2016/10/specialized-application-reporting-part-1.html
+Published: October 27, 2016
+Labels: Reporting, SCCM, SCCM 2012, SQL, System Center Configuration Manager, System Center Configuration Manager 2012
+Lookup rows the post says to insert into Enforcement_Categories. First line is the column headers.
+
+EnforcementState EnforcementCategory
+1000 Success
+1001 Already Compliant
+1002 Simulate Success
+2000 In progress
+2001 Waiting for content
+2002 Installing
+2003 Restart to continue
+2006 Downloading dependent content
+2007 Installing dependent content
+2008 Restart to complete
+2009 Content downloaded
+2011 Waiting for user session reconnect
+2012 Waiting for user logoff
+2013 Waiting for user logon
+2014 Waiting To Install
+3000 Requirements not met
+3001 Host Platform Not Applicable
+5001 Evaluation failed
+5002 Deployment failed
+5003 Failed to locate content
+5004 Dependency installation failed
+5005 Failed to download dependent content
+5006 Conflicts with another application deployment
+5007 Waiting Retry
+5008 Failed to uninstall superseded deployment type
+5009 Failed to download superseded deployment type
+
+ -----------------------------------------------------------------------------

@@ -1,0 +1,112 @@
+Source: Specialized Application Reporting - Part 1
+Blog: https://hiway65nblog.blogspot.com/2016/10/specialized-application-reporting-part-1.html
+Published: October 27, 2016
+Labels: Reporting, SCCM, SCCM 2012, SQL, System Center Configuration Manager, System Center Configuration Manager 2012
+Lookup rows the post says to insert into Error_Descriptions. First line is the column headers.
+
+ErrorCode ErrorStatus
+-2145124330 Operation tried to install while another installation was in progress or the system was pending a mandatory restart.
+1612 The installation source for this product is not available. Verify that the source exists and that you can access it.
+60002 Unknown Error (60002)
+60008 Unknown Error (60008)
+2 The system cannot find the file specified.
+-2016411129 Parsing Error
+-2145124330 Other Installation In Progress or Pending Mandatory Restart
+-2016410847 Evalution Failed: The script execution has timed out.
+-2147024895 Incorrect function.
+-2147217407 Generic failure
+-2147467260 Operation aborted
+-2147467259 Unspecified error
+-2147418113 Catastrophic failure
+-2147221164 Class not registered
+-2147220702 Rule is in conflict with other rules
+-2147217399 Not available
+-2147217389 Provider load failure
+-2147213312 Unknown Error (-2147213312)
+-2147205120 Unknown Error (-2147205120)
+-2147185721 Unknown Error (-2147185721)
+-2147024894 The file you specified could not be found. This may be because it is not signed.
+-2147024784 There is not enough space on the disk.
+-2147024680 This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information to see whether you need a x86 (32-bit) or x64 (64-bit) version of the program, and then contact the software publisher.
+-2147024156 The requested operation requires elevation.
+-2147023888 An attempt was made to reference a token that does not exist.
+-2147023436 This operation returned because the timeout period expired.
+-2147023278 Another installation is already in progress. Complete that installation before proceeding with this install.
+-2147017874 The specified session cannot be found.
+-2146889721 The hash value is not correct.
+-2146762496 No signature was present in the subject.
+-2146368439 This operation is not enabled on this platform
+-2145124329 Operation was not performed because there are no applicable updates.
+-2068643838 Unknown Error (-2068643838)
+-2068052310 Unknown Error (-2068052310)
+-2068052081 Unknown Error (-2068052081)
+-2067922940 Unknown Error (-2067922940)
+-2067922408 Unknown Error (-2067922408)
+-2067919934 Unknown Error (-2067919934)
+-2016411117 Timeout occurred
+-2016411012 CI documents download timed out
+-2016410999 Failed to decompress CI documents
+-2016410860 CI Version Info timed out.
+-2016410857 Unknown Error (-2016410857)
+-2016410850 Unsupported configuration. The application is configured to Install for User but has been targeted to a machine device instead of the user.
+-2016410844 The application was not detected after installation completed.
+-2016410843 Application was still detected after uninstall completed.
+-2016410839 Application requirement evaluation or detection failed
+-2016410105 Content not found
+-2016409600 Content transfer manager job is in an unexpected state
+-2016407290 Failed to verify the executable file is valid or to construct the associated command line.
+-2016407289 Failed to access all the provided program locations. This program may retry if the maximum retry count has not been reached.
+-2016407287 Failed to verify that the given file is a valid installation package.
+-2016407039 The content download cannot be performed because there is not enough available space in cache or the disk is full.
+-2016407038 The content download cannot be performed because the total size of the client cache is smaller than the size of the requested content.
+-1073741510 Unknown Error (-1073741510)
+-1073741502 Unknown Error (-1073741502)
+-1073741205 Unknown Error (-1073741205)
+-1073740777 Unknown Error (-1073740777)
+-1072365553 Unknown Error (-1072365553)
+-805306369 Unknown Error (-805306369)
+-65536 Unknown Error (-65536)
+-256 Unknown Error (-256)
+-3 Unknown Error (-3)
+-1 Script execution failed with error code -1
+0 Success
+1 Incorrect function.
+7 The storage control blocks were destroyed.
+70 The remote server has been paused or is in the process of being started.
+83 Fail on INT 24.
+90 Unknown Error (90)
+99 Unknown Error (99)
+112 There is not enough space on the disk.
+144 The directory is not a subdirectory of the root directory.
+255 The extended attributes are inconsistent.
+999 Error performing inpage operation.
+1013 The configuration registry key could not be written.
+1111 User denied installation.
+1335 The subauthority part of a security ID is invalid for this particular use.
+1601 The Windows Installer Service could not be accessed. This can occur if the Windows Installer is not correctly installed. Contact your support personnel for assistance.
+1602 User cancelled installation.
+1603 Fatal error during installation.
+1605 This action is only valid for products that are currently installed.
+1618 Another installation is already in progress. Complete that installation before proceeding with this install.
+1619 This installation package could not be opened. Verify that the package exists and that you can access it, or contact the application vendor to verify that this is a valid Windows Installer package.
+1620 This installation package could not be opened. Contact the application vendor to verify that this is a valid Windows Installer package.
+1624 Error applying transforms. Verify that the specified transform paths are valid.
+1633 This installation package is not supported by this processor type. Contact your product vendor.
+1638 Another version of this product is already installed. Installation of this version cannot continue. To configure or remove the existing version of this product, use Add/Remove Programs on the Control Panel.
+1645 The Windows Installer does not permit installation from a Remote Desktop Connection.
+1706 The endpoint format is invalid.
+2222 The resource name could not be found.
+2932 Unknown Error (2932)
+3333 Unknown Error (3333)
+5100 Asia
+17302 Unknown Error (17302)
+17303 Unknown Error (17303)
+30015 Unknown Error (30015)
+30066 Unknown Error (30066)
+30072 Unknown Error (30072)
+30086 Unknown Error (30086)
+30088 Unknown Error (30088)
+40025 Unknown Error (40025)
+1073807364 Unknown Error (1073807364)
+
+------------------------------------------------------------------------------
